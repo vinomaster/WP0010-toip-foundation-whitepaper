@@ -34,11 +34,11 @@
 # Variables
 # -----------------------------------------------------------------------------
 
-REPO_NAME ?= mkdocs-material
-UPSTREAM_REPO ?= https://github.com/trustoverip/mkdocs-material.git
+REPO_NAME ?= WP0010-toip-foundation-whitepaper
+UPSTREAM_REPO ?= https://github.com/trustoverip/WP0010-toip-foundation-whitepaper.git
 DEV_IMAGE ?= trustoverip/mkdocs-material-devenv
 PANDOCS_IMAGE ?= trustoverip/pandocs-devenv
-DEV_SITE_PORT ?= 7500
+DEV_SITE_PORT ?= 7510
 DEV_HOST_DIR ?= host_mkdocs
 PUB_HOST_DIR ?= host_pandocs
 PUBLISH_DIR ?= publish
