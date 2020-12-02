@@ -90,8 +90,6 @@ setup: prepare_git build_images ## Prepare Development and Publication environme
 rebase: ## Rebase local machine environment with upstream repo
 	git fetch upstream
 	git rebase upstream/master; git rebase upstream/main
-	git fetch template
-	git rebase template/main
 
 merge: ## Merge local machine environment with template repo
 	git fetch template
